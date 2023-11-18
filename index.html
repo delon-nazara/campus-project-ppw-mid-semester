@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Meta Start -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Photographer Portfolio</title>
+        <!-- Meta End -->
+
+        <!-- Import Bootstrap -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+
+        <!-- Import CSS -->
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <!-- Navbar Start -->
+        <section id="navbar">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                <div class="container">
+                    <a class="navbar-brand" href="#"
+                        ><img
+                            class="me-3"
+                            src="asset/icon/logo.png"
+                            alt="logo"
+                            width="40"
+                        />Photographer Portfolio</a
+                    >
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup"
+                        aria-controls="navbarNavAltMarkup"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse"
+                        id="navbarNavAltMarkup"
+                    >
+                        <div class="navbar-nav ms-auto">
+                            <a class="nav-link me-3" href="#jumbotron">Home</a>
+                            <a class="nav-link me-3" href="#carousel"
+                                >Showcase</a
+                            >
+                            <a class="nav-link me-3" href="#card">Gallery</a>
+                            <a class="nav-link me-3" href="#footer">Contact</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <!-- Navbar End -->
+
+        <!-- Jumbotron Start -->
+        <section id="jumbotron">
+            <div class="jumbotron">
+                <h1 class="display mb-5">
+                    Capturing Moments, <br />Creating Memories.
+                </h1>
+                <a class="btn btn-primary btn-lg" href="#carousel" role="button"
+                    >Click to see my journey...</a
+                >
+            </div>
+        </section>
+        <!-- Jumbotron End -->
+
+        <!-- Carousel Start -->
+        <section id="carousel">
+            <h1 style="font-size: 4rem">Showcase</h1>
+            <h2
+                style="
+                    font-size: 1.5rem;
+                    font-style: italic;
+                    margin-bottom: 4rem;
+                "
+            >
+                Check out some of my best results.
+            </h2>
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button
+                        type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide-to="0"
+                        class="active"
+                        aria-current="true"
+                        aria-label="Slide 1"
+                    ></button>
+                    <button
+                        type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide-to="1"
+                        aria-label="Slide 2"
+                    ></button>
+                    <button
+                        type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide-to="2"
+                        aria-label="Slide 3"
+                    ></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img
+                            height="300"
+                            src="asset/image/carousel-1.jpg"
+                            class="d-block w-100"
+                            alt="image"
+                        />
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            height="300"
+                            src="asset/image/carousel-2.jpg"
+                            class="d-block w-100"
+                            alt="image"
+                        />
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            height="300"
+                            src="asset/image/carousel-3.jpg"
+                            class="d-block w-100"
+                            alt="image"
+                        />
+                    </div>
+                </div>
+                <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev"
+                >
+                    <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next"
+                >
+                    <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <!-- Carousel End -->
+
+        <!-- Card Start -->
+        <section id="card">
+            <h1 style="font-size: 4rem">Gallery</h1>
+            <h2
+                style="
+                    font-size: 1.5rem;
+                    font-style: italic;
+                    margin-bottom: 4rem;
+                "
+            >
+                Let's look at the beauty of nature for a moment.
+            </h2>
+            <div class="row">
+                <div class="col">
+                    <div class="card mb-5" style="width: 18rem">
+                        <img
+                            src="asset/image/card-1.jpg"
+                            class="card-img-top"
+                            alt="card"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">Green Forest</h5>
+                            <p class="card-text">
+                                This image was obtained from the website
+                                <a href="https://.unsplash.com">unsplash.com</a
+                                >. Credit for amazing fotographer that share
+                                this photo for free.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-5" style="width: 18rem">
+                        <img
+                            src="asset/image/card-2.jpg"
+                            class="card-img-top"
+                            alt="card"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">Snowy Mountain</h5>
+                            <p class="card-text">
+                                This image was obtained from the website
+                                <a href="https://.unsplash.com">unsplash.com</a
+                                >. Credit for amazing fotographer that share
+                                this photo for free.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-5" style="width: 18rem">
+                        <img
+                            src="asset/image/card-3.jpg"
+                            class="card-img-top"
+                            alt="card"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">Mirror Lake</h5>
+                            <p class="card-text">
+                                This image was obtained from the website
+                                <a href="https://.unsplash.com">unsplash.com</a
+                                >. Credit for amazing fotographer that share
+                                this photo for free.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="card mb-5" style="width: 18rem">
+                        <img
+                            src="asset/image/card-4.jpg"
+                            class="card-img-top"
+                            alt="card"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">Beautiful Sunset</h5>
+                            <p class="card-text">
+                                This image was obtained from the website
+                                <a href="https://.unsplash.com">unsplash.com</a
+                                >. Credit for amazing fotographer that share
+                                this photo for free.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-5" style="width: 18rem">
+                        <img
+                            src="asset/image/card-5.jpg"
+                            class="card-img-top"
+                            alt="card"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">Autumn Season</h5>
+                            <p class="card-text">
+                                This image was obtained from the website
+                                <a href="https://.unsplash.com">unsplash.com</a
+                                >. Credit for amazing fotographer that share
+                                this photo for free.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-5" style="width: 18rem">
+                        <img
+                            src="asset/image/card-6.jpg"
+                            class="card-img-top"
+                            alt="card"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">Green Lake</h5>
+                            <p class="card-text">
+                                This image was obtained from the website
+                                <a href="https://.unsplash.com">unsplash.com</a
+                                >. Credit for amazing fotographer that share
+                                this photo for free.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="card mb-5" style="width: 18rem">
+                        <img
+                            src="asset/image/card-7.jpg"
+                            class="card-img-top"
+                            alt="card"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">Amazing Sky</h5>
+                            <p class="card-text">
+                                This image was obtained from the website
+                                <a href="https://.unsplash.com">unsplash.com</a
+                                >. Credit for amazing fotographer that share
+                                this photo for free.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-5" style="width: 18rem">
+                        <img
+                            src="asset/image/card-8.jpg"
+                            class="card-img-top"
+                            alt="card"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">Twin Cliff</h5>
+                            <p class="card-text">
+                                This image was obtained from the website
+                                <a href="https://.unsplash.com">unsplash.com</a
+                                >. Credit for amazing fotographer that share
+                                this photo for free.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-5" style="width: 18rem">
+                        <img
+                            src="asset/image/card-9.jpg"
+                            class="card-img-top"
+                            alt="card"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">Another Mirror Lake</h5>
+                            <p class="card-text">
+                                This image was obtained from the website
+                                <a href="https://.unsplash.com">unsplash.com</a
+                                >. Credit for amazing fotographer that share
+                                this photo for free.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Card End -->
+
+        <!-- Footer Start -->
+        <section id="footer">
+            <h1>Interested?</h1>
+            <div class="btn btn-success m-2 px-3 fs-5 mb-3">
+                <a
+                    href="contact.html"
+                    style="color: white; text-decoration: none"
+                    >Just Contact Me</a
+                >
+            </div>
+            <h2 class="mt-5">
+                Let's work together with <br />
+                interesting cooperation and collaboration.
+            </h2>
+        </section>
+        <div id="copyright">
+            <p>Copyright by Delon Nazara</p>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Button Scroll Up -->
+        <button onclick="scrollToTop()" id="scrollBtn" title="Go to top">
+            <img src="asset/icon/up-arrow.png" alt="up" width="20">
+        </button>
+
+        <!-- Import JavaScript -->
+        <script src="script.js"></script>
+    </body>
+</html>
