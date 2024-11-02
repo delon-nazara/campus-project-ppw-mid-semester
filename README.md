@@ -2,7 +2,7 @@
 
 ## Description
 <pre>
-Subject      :  <i>Pemrograman Web</i>
+Subject      :  <i>Praktikum Pemrograman Web</i>
 Semester     :  3  
 Year         :  2023
 Major        :  Computer Science
